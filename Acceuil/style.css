@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+}
+
+nav{
+    position:fixed;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: rgb(131, 126, 130);
+    height: 80px;
+}
+
+.logo{
+    margin-top: 70px;
+    color: #237aaf;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-decoration: none;
+    border-radius: 2%;
+	box-shadow: 1rem 1rem 1rem  0rem rgba(7, 165, 20, 0.4);
+
+   
+    transform: translate(-50%,-80%);
+     width:8rem;
+     height: 2.5rem;
+     font-size: 1.5rem;
+     font-family: cursive;
+   
+     background: linear-gradient(45deg,  rgb(19, 51, 194),rgb(18, 15, 192), rgb(54, 65, 223))/* linear-gradient permet de combiner plusieurs couleur et 45deg aide pour le degré d'affichage*/ ;
+     border: none;
+     border-radius: 10px;
+     outline: none;
+     box-shadow: 0.5rem 0.5rem 0 #252223;
+     cursor: pointer;
+     transition: all 0.3s ease;
+}
+.logo:hover{
+    color: black;
+    border-bottom: 2px solid rgb(104, 100, 100);
+}
+button{
+    color:#f5f3fe
+}
+
+.navbar{
+    position: relative;
+    display: flex; 
+}
+
+.navbar li{
+    list-style: none;
+    font-size: x-large;
+}
+
+.navbar a{
+    color: rgb(255, 238, 238);
+    text-decoration: none;
+    margin-left: 70px;
+    font-weight: 700;  
+}
+
+
+/* accueil */
+.accueil{
+    height: 550px;
+    display: flex;
+
+}
+.gauche{
+    margin-top: 150Px;
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+.droite{
+    margin-top: 90px;
+    width: 650px;
+    background: url('./creation_monetaire-tt-width-800-height-633-fill-0-crop-0-bgcolor-eeeeee.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* s'authentifier */
+
+
+
+
+ /* footer */
+
+footer{
+    margin-top: 100px;
+    background: #ebe3e3;;
+}
+ footer a{
+	
+    display: flex;
+	justify-items: center;
+	justify-content: space-between;
+	
+}
+
+
+footer ul {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+footer h1{
+padding-top: 50px;
+color: rgb(0, 0, 0);
+font-weight: bold;
+text-align: center;
+font-size: 28px;
+}
+
+footer ul{
+    text-align: center;
+}
+footer ul li {
+    margin-right: 20px;
+    margin-top: 50px;
+	margin-left: 30px;
+    list-style-type:none;
+    
+}
+
+.signature {
+    padding-top: 30px;
+	text-align: center;
+    color: #0c0c0c;
+}
+
+
+
+
+
+
+
